@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* 🌿 SOFT STUDY BACKGROUND */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* soft academic gradient */
+    background: linear-gradient(135deg, #e0f2fe, #f1f5f9);
+}
+
+/* 📘 MAIN CARD */
+.container {
+    width: 330px;
+    padding: 30px;
+
+    background: #ffffff;
+
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    text-align: center;
+}
+
+/* 🧠 TITLE */
+h1 {
+    font-size: 28px;
+    font-weight: 800;
+
+    color: #1f2937; /* clean dark gray */
+}
+
+/* 📄 SUBTEXT */
+p {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+/* ✏️ INPUT FIELDS */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 11px;
+
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+
+    background: #f9fafb;
+    outline: none;
+
+    font-size: 14px;
+
+    transition: 0.2s ease;
+}
+
+/* 🔵 FOCUS STATE */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+    transform: scale(1.02);
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* 🎓 STUDY BUTTON (CALM BLUE) */
+button {
+    width: 100%;
+    padding: 12px;
+
+    border: none;
+    border-radius: 10px;
+
+    color: white;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    background: #3b82f6; /* calm academic blue */
+
+    transition: 0.25s ease;
+}
+
+/* HOVER */
+button:hover {
+    transform: translateY(-2px);
+    background: #2563eb;
+}
+
+/* CLICK */
+button:active {
+    transform: scale(0.97);
+}
+
+/* HIDDEN */
+.hidden {
+    display: none;
+}

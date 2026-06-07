@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app-container">
+
+    <header>
+        <h1>FocusFlow</h1>
+        <p>Stay consistent. Study better every day.</p>
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h2>Task</h2>
+            <select id="taskSelect">
+                <option>Poetry</option>
+                <option>Web Dev</option>
+                <option>DSA</option>
+                <option>Android Dev</option>
+                <option>Other</option>
+            </select>
+        </section>
+
+        <section class="card">
+            <h2>Set Time (minutes)</h2>
+            <input type="number" id="customTime" placeholder="Enter minutes">
+        </section>
+
+        <section class="card">
+
+            <h2>Timer</h2>
+
+            <div id="timer">00:00</div>
+
+            <div class="progress-container">
+            <div id="progressBar"></div>
+            </div>
+
+            <button id="startBtn">Start</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="resumeBtn">Resume</button>
+            <button id="resetBtn">Reset</button>
+
+            <h3 id="status">Ready</h3>
+
+        </section>
+
+        <section class="card">
+            <h2>Motivation :</h2>
+            <div id="motivationBox">
+             1.  If you want something you’ve never had, you must be willing to do something you’ve never done.
+              <br>
+             2.  The Only thing in your hand is try giv your best everytime and rest in God's hand'.
+             <br>
+             3.  Success is not final, failure is not fatal: it is the courage to continue that counts.
+             <br>
+             4.  Your future is created by what you do today, not tomorrow.
+             <br>
+             5.  Small daily improvements lead to massive results over time.
+            </div>
+        </section>
+
+    </main>
+
+</div>
+
+<script src="FocusFlow.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>FocusFlow</h1>
+    <p>Welcome To FocusFlow !</p>
+    <p>The Most Trusted App</p>
+
+    <input id="name" placeholder="Full Name">
+
+    <select id="loginMethod">
+        <option value="">Select method</option>
+        <option value="email">Email</option>
+        <option value="phone">Phone</option>
+    </select>
+
+    <input type="email" id="emailInput" placeholder="Email" class="hidden">
+
+    <input type="tel" id="phoneInput" placeholder="Phone" class="hidden">
+
+    <textarea id="extraInfo" placeholder="What do you want to focus on today?(optional)"></textarea>
+
+    <button id="loginBtn">Log In</button>
+
+</div>
+
+<script src="login.js" defer></script>
+</body>
+</html>
