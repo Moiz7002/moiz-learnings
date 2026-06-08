@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+</body>
+
+ <h1>Checkout</h1>
+   <p>
+        <strong>
+            Thank you for shopping with Moiz Collectibles.
+            Please choose your preferred payment method below.
+        </strong>
+    </p>
+
+    <div class="payment-options">
+        <form>
+            <h2>Payment Methods</h2>
+
+            <label for="credit-card">Credit Card</label>
+            <input type="radio" id="credit-card" name="payment-method" value="credit-card">
+            <br><br>
+            <label for="debit-card">Debit Card</label>
+            <input type="radio" id="debit-card" name="payment-method" value="debit-card">
+            <br><br>
+            <label for="net-banking">Net Banking</label>
+            <input type="radio" id="net-banking" name="payment-method" value="net-banking">
+            <br><br>
+            <label for="upi">UPI</label>
+            <input type="radio" id="upi" name="payment-method" value="upi">
+            <br><br>
+            <h2>Contact Information</h2>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br><br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+            <br><br>
+                        <h2>Feedback</h2>
+            <textarea
+                placeholder="Enter your feedback here..."
+                rows="4"
+                cols="50">
+            </textarea>
+            
+            <h2>Order Summary</h2>
+            <p>Total Items: <span id="total-items">0</span></p>
+            <p>Total Amount: ₹<span id="total-amount">0.00</span></p>
+            <p><strong>Products Ordered:</strong></p>
+            <ul id="product-list"></ul>
+
+         <script src="payment.js"></script>
+         <p><strong>Thank you for shopping with us!</strong></p>
+
+
+            <br><br>
+            <button type="submit">Place Order</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
