@@ -1,0 +1,144 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #555;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* About Image */
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+/* Lists */
+ul,
+ol {
+    margin-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Contact Section */
+#contact p {
+    margin-bottom: 10px;
+}
+
+/* Form */
+form {
+    margin-top: 15px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #163172;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+/* Horizontal line */
+hr {
+    margin: 20px 0;
+}
