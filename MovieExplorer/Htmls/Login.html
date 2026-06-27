@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieExplorer Login</title>
+<link rel="stylesheet" href="../Css/Login.css">
+</head>
+<body>
+
+    <div class="container">
+
+<img src="../logo.png" alt="MovieExplorer Logo" class="logo">
+
+        <input type="text" id="name" placeholder="Full Name">
+
+        <select id="loginMethod">
+            <option value="">Select Method</option>
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+        </select>
+
+        <input type="email" id="emailInput" placeholder="Email Address" class="hidden">
+        <input type="tel" id="phoneInput" placeholder="Phone Number" class="hidden">
+
+        <button id="loginBtn">Send OTP</button>
+
+        <div id="otpSection" class="hidden">
+            <div class="otp-boxes">
+                <input type="text" maxlength="1" class="otp">
+                <input type="text" maxlength="1" class="otp">
+                <input type="text" maxlength="1" class="otp">
+                <input type="text" maxlength="1" class="otp">
+            </div>
+
+            <button id="verifyBtn">Verify OTP</button>
+        </div>
+
+    </div>
+<script src="../Js/Login.js"></script>
+
+</body>
+</html>

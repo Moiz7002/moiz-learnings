@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body{
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+    background:
+    linear-gradient(rgba(0,0,0,.80),
+    rgba(0,0,0,.80)),
+
+    url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1200");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+
+
+.container{
+
+    width:420px;
+
+    padding:45px 40px;
+
+    background:rgba(15,15,15,.90);
+
+    border-radius:22px;
+
+    text-align:center;
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:
+    0 0 30px rgba(229,9,20,.25);
+
+}
+
+
+
+.logo{
+
+    width:280px;
+
+    height:auto;
+
+    display:block;
+
+    margin:0 auto 25px auto;
+
+    filter:
+    drop-shadow(0 0 10px rgba(229,9,20,.5));
+
+}
+
+
+
+input,
+select{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-top:18px;
+
+    border:1px solid #333;
+
+    border-radius:10px;
+
+    background:#1f1f1f;
+
+    color:white;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+
+
+input::placeholder{
+
+    color:#888;
+
+}
+
+
+
+input:focus,
+select:focus{
+
+    outline:none;
+
+    border-color:#E50914;
+
+    box-shadow:
+    0 0 10px rgba(229,9,20,.4);
+
+}
+
+
+
+select{
+
+    cursor:pointer;
+
+}
+
+
+
+button{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-top:28px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#E50914;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+button:hover{
+
+    background:#ff1e2d;
+
+    transform:translateY(-2px);
+
+}
+
+
+
+button:active{
+
+    transform:scale(.98);
+
+}
+
+
+
+.hidden{
+
+    display:none;
+
+}
+
+
+
+@media(max-width:500px){
+
+.container{
+
+    width:90%;
+
+    padding:35px 25px;
+
+}
+
+
+.logo{
+
+    width:220px;
+
+}
+
+}
+.otp-boxes{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-top:20px;
+}
+
+.otp{
+    width:55px;
+    height:55px;
+
+    border-radius:10px;
+
+    border:1px solid #333;
+
+    background:#1f1f1f;
+
+    color:white;
+
+    font-size:24px;
+
+    text-align:center;
+}
+
+#verifyBtn{
+    margin-top:20px;
+}
