@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP2 - Number Guessing Game</title>
+
+    <style>
+
+        body {
+            background-color: #212121;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 22px;
+        }
+
+        input {
+            width: 250px;
+            height: 40px;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 8px;
+            border: none;
+            margin-top: 20px;
+        }
+
+        button {
+            width: 220px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        #message {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Number Guessing Game</h1>
+
+    <h2>Guess a random number between 1 and 100</h2>
+
+    <h3>You have 10 attempts!</h3>
+
+    <label for="guessInput">Enter your guess:</label>
+
+    <br><br>
+
+    <input
+        type="number"
+        id="guessInput"
+        min="1"
+        max="100"
+    >
+
+    <br><br>
+
+    <button id="subt">
+        Submit Guess
+    </button>
+
+    <hr>
+
+    <p id="message"></p>
+
+    <p>
+        <strong>Previous Guesses:</strong>
+        <span id="previousGuesses"></span>
+    </p>
+
+    <p>
+        <strong>Guesses Remaining:</strong>
+        <span id="remainingGuesses">10</span>
+    </p>
+
+    <button id="newGame" style="display: none;">
+        Start New Game
+    </button>
+
+    <script src="SP2.js"></script>
+
+</body>
+</html>
